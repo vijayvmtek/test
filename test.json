@@ -1,1 +1,85 @@
-your_new_file_content
+{
+    "genctl-autoscale-eventing": {
+        "jira_data": {
+            "key": "SCED-1388",
+            "status": "To Do",
+            "resolution": null,
+            "assignee": null,
+            "reporter": "gensec@us.ibm.com",
+            "resolutiondate": null,
+            "summary": "New issue from jira-python to test",
+            "comment": "The rotation target date already exceeded 2 days",
+            "priority": "Medium",
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            }
+        },
+        "secret_data": {
+            "secret_mount_path": "/genctl/",
+            "secret_path": "dal/dev/autoscale/eventing",
+            "periodGoalDays": 0,
+            "secret_creation_time": "2020-03-10T03:06:15.690173613Z",
+            "rotationRequired": true,
+            "rotationException": false,
+            "ownerName": "monitoring",
+            "ownerName_jira": "Gerry Greenwood",
+            "Target_date": "2020-06-30"
+        }
+    },
+    "genctl-demo-password": {
+        "jira_data": {
+            "key": "SCED-1389",
+            "status": "To Do",
+            "resolution": null,
+            "assignee": null,
+            "reporter": "gensec@us.ibm.com",
+            "resolutiondate": null,
+            "summary": "New issue from jira-python to test",
+            "comment": "The rotation target date already exceeded 2 days",
+            "priority": "Medium",
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            }
+        },
+        "secret_data": {
+            "secret_mount_path": "/genctl/",
+            "secret_path": "dal/dev/demo/password",
+            "periodGoalDays": 0,
+            "secret_creation_time": "2020-06-19T14:32:15.758562423Z",
+            "rotationRequired": true,
+            "rotationException": false,
+            "ownerName": "devsecops",
+            "ownerName_jira": "Bernie Pezzimenti",
+            "Target_date": "2020-06-30"
+        }
+    },
+    "genctl-experimental-test": {
+        "jira_data": {
+            "key": "SCED-1390",
+            "status": "To Do",
+            "resolution": null,
+            "assignee": null,
+            "reporter": "gensec@us.ibm.com",
+            "resolutiondate": null,
+            "summary": "New issue from jira-python to test",
+            "comment": "The rotation target date already exceeded 2 days",
+            "priority": "Medium",
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            }
+        },
+        "secret_data": {
+            "secret_mount_path": "/genctl/",
+            "secret_path": "dal/dev/experimental/test",
+            "periodGoalDays": 0,
+            "secret_creation_time": "2020-02-26T20:40:19.22526061Z",
+            "rotationRequired": true,
+            "rotationException": false,
+            "ownerName": "devsecops",
+            "ownerName_jira": "Bernie Pezzimenti",
+            "Target_date": "2020-06-30"
+        }
+    }
